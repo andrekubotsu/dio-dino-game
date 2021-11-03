@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fafafa;
+}
+
+.ninja {
+    width: 159px;
+    height: 200px;
+    background: url('./img/ninja_run.png') 0px 0px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.bee {
+    width: 130px;
+    height: 98px;
+    background: url('./img/bee.png') 0px 0px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url('./img/cactus.png');
+}
+
+.game-over {
+    text-align: center;
+    color: #666;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+
+    to{
+        background-position: 0;
+    }
+}
+
+@keyframes slideleft {
+    from {
+        background-position: 0;
+    }
+
+    to{
+        background-position: 70000%;
+    }
+}
+
+/* .background {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background.png');
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 200px;
+} */
+
+.layer0 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0000_9.png');
+    background-repeat: repeat-x;
+    animation: slideright 5000s infinite linear;
+    width: 100vw;
+    height: 793px;
+}
+
+.layer1 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0001_8.png');
+    background-repeat: repeat-x;
+    /* animation: slideright 600s infinite linear; */
+    width: 100vw;
+    height: 793px;
+}
+
+.layer2 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0002_7.png');
+    background-repeat: repeat-x;
+    animation: slideright 8000s infinite linear;
+    width: 100vw;
+    height: 793px;
+}
+
+.layer3 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0003_6.png');
+    background-repeat: repeat-x;
+    animation: slideright 8000s infinite linear;
+    width: 100vw;
+    height: 793px;
+}
+
+.layer4 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0004_Lights.png');
+    background-repeat: repeat-x;
+    /* animation: slideright 600s infinite linear; */
+    width: 100vw;
+    height: 793px;
+}
+
+.layer5 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0005_5.png');
+    background-repeat: repeat-x;
+    /* animation: slideright 600s infinite linear; */
+    width: 100vw;
+    height: 793px;
+}
+
+.layer6 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0006_4.png');
+    background-repeat: repeat-x;
+    /* animation: slideright 600s infinite linear; */
+    width: 100vw;
+    height: 793px;
+}
+
+.layer7 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0007_Lights.png');
+    background-repeat: repeat-x;
+    /* animation: slideright 600s infinite linear; */
+    width: 100vw;
+    height: 793px;
+}
+
+.layer8 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0008_3.png');
+    background-repeat: repeat-x;
+    animation: slideright 15000s infinite linear;
+    width: 100vw;
+    height: 793px;
+}
+
+.layer9 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0009_2.png');
+    background-repeat: repeat-x;
+    /* animation: slideright 600s infinite linear; */
+    width: 100vw;
+    height: 793px;
+}
+
+.layer10 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0010_1.png');
+    background-repeat: repeat-x;
+    /* animation: slideright 600s infinite linear; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.layer11 {
+    position: absolute;
+    bottom: 0;
+    background-image: url('./img/background/Layer_0011_0.png');
+    background-repeat: repeat-x;
+    /* animation: slideright 600s infinite linear; */
+    width: 100vw;
+    height: 100vh;
+}
